@@ -64,10 +64,10 @@ const TokenConnect = ({
           Connect
         </Button>
         <a
-          href="https://kitt.livekit.io/"
+          href="https://prtl.cc/"
           className={`text-xs text-${accentColor}-500 hover:underline`}
         >
-          Don’t have a URL or token? Try out our KITT example to see agents in
+          Don’t have a URL or token? Try out our Portal example to see agents in
           action!
         </a>
       </div>
@@ -81,7 +81,7 @@ export const PlaygroundConnect = ({
 }: PlaygroundConnectProps) => {
   const [showCloud, setShowCloud] = useState(true);
   const copy = CLOUD_ENABLED
-    ? "Connect to playground with LiveKit Cloud or manually with a URL and token"
+    ? "Connect to playground with Portal or manually with a URL and token"
     : "Connect to playground with a URL and token";
   return (
     <div className="flex left-0 top-0 w-full h-full bg-black/80 items-center justify-center text-center gap-2">
@@ -100,7 +100,7 @@ export const PlaygroundConnect = ({
                     setShowCloud(true);
                   }}
                 >
-                  LiveKit Cloud
+                  Portal Cloud
                 </ConnectTab>
                 <ConnectTab
                   active={!showCloud}
