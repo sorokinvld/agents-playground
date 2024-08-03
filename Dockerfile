@@ -8,6 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install -g corepack
 RUN corepack enable
+RUN corepack install
 # Устанавливаем зависимости
 RUN npm install
 
