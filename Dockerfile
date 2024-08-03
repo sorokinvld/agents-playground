@@ -1,5 +1,5 @@
 # Используем официальный образ Node.js в качестве базового
-FROM node:16 AS builder
+FROM node:latest AS builder
 
 # Устанавливаем рабочую директорию
 WORKDIR /app
@@ -21,7 +21,7 @@ COPY . .
 RUN npm run build
 
 # Используем более легкий образ для запуска приложения
-FROM node:16 AS runner
+FROM node:latest AS runner
 
 # Устанавливаем рабочую директорию
 WORKDIR /app
