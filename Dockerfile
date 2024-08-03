@@ -7,7 +7,7 @@ WORKDIR /app
 # Копируем package.json и package-lock.json
 COPY package*.json ./
 RUN npm install -g corepack
-RUN corepack activate
+RUN corepack enable
 # Устанавливаем зависимости
 RUN npm install
 
