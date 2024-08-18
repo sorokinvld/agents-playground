@@ -78,7 +78,7 @@ export function HomeInner() {
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <meta
           property="og:image"
-          content="https://livekit.io/images/og/agents-playground.png"
+          content="https://github.com/sorokinvld/portal-brandpack/blob/423f16ea2fcd9d4d3400f8e3915dbcf582eaf595/Portal_224.png"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
