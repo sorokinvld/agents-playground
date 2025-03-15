@@ -40,7 +40,6 @@ export const PlaygroundHeader = ({
             "Connect"
           )}
         </Button>
-      </div>
     </div>
   );
 };
