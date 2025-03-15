@@ -127,7 +127,7 @@ export const ConfigProvider = ({ children }: { children: React.ReactNode }) => {
       ws_url: "",
       token: "",
       room_name: "",
-      participant_name: params.get("user") === "",
+      participant_name: params.get("participant_name"),
     } as UserSettings;
   }, [appConfig]);
 
