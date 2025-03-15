@@ -34,10 +34,7 @@ export const PlaygroundHeader = ({
     >
       <div className="flex items-center gap-3 basis-2/3">
         <div className="flex lg:basis-1/2">
-          <a href="https://www.portalos.ru">.</a>
-        </div>
-        <div className="lg:basis-1/2 lg:text-center text-xs lg:text-base lg:font-semibold text-white">
-          {title}
+          <a href="https://www.portalos.ru">Портал</a>
         </div>
       </div>
       <div className="flex basis-1/3 justify-end items-center gap-2">
