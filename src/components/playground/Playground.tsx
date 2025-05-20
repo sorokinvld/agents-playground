@@ -220,7 +220,7 @@ export default function Playground({
     }
     return <></>;
   }, [config.settings.theme_color, voiceAssistant.audioTrack, voiceAssistant.agent]);
- /*
+ 
   const handleRpcCall = useCallback(async () => {
     if (!voiceAssistant.agent || !room) return;
     
@@ -308,7 +308,7 @@ export default function Playground({
           </div>
           
         </ConfigurationPanelItem>
-        */
+        
         <ConfigurationPanelItem title="Status">
           <div className="flex flex-col gap-2">
             <NameValueRow
