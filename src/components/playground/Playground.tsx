@@ -274,6 +274,7 @@ export default function Playground({
               editable={roomState !== ConnectionState.Connected}
             />
           </div>
+          /*
           <div className="flex flex-col gap-2 mt-4">
             <div className="text-xs text-gray-500 mt-2">RPC Method</div>
             <input
@@ -305,6 +306,7 @@ export default function Playground({
               Perform RPC Call
             </button>
           </div>
+          */
         </ConfigurationPanelItem>
         <ConfigurationPanelItem title="Status">
           <div className="flex flex-col gap-2">
