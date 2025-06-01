@@ -341,6 +341,18 @@ export default function Playground({
                   disabled={true}
                 />
               )}
+            <p className="text-xs text-gray-500 text-right">
+              Set an agent name to use{" "}
+              <a
+                href="https://www.portalos.ru"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-gray-300 underline"
+              >
+                explicit dispatch
+              </a>
+              .
+            </p>
           </div>
         </ConfigurationPanelItem>
 
