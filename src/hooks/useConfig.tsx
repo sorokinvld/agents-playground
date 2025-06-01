@@ -137,9 +137,9 @@ export const ConfigProvider = ({ children }: { children: React.ReactNode }) => {
       },
       ws_url: "",
       token: "",
-      room_name: "",
+      room_name: params.get("room_name"),
       participant_id: "",
-      participant_name: "",
+      participant_name: params.get("participant_name"),
     } as UserSettings;
   }, [appConfig]);
 
@@ -165,6 +165,8 @@ export const ConfigProvider = ({ children }: { children: React.ReactNode }) => {
         audio: boolToString(us.outputs.audio),
         chat: boolToString(us.chat),
         theme_color: us.theme_color || "cyan",
+        participant_name: us.participant_name || "",
+        room_name: us.room_name || "",
       });
       // Note: We don't set ws_url and token to the URL on purpose
       router.replace("/#" + obj.toString());

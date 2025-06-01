@@ -61,10 +61,10 @@ const TokenConnect = ({
             onConnectClicked("manual");
           }}
         >
-          Connect
+          Подключиться
         </Button>
         <a
-          href="https://prtl.cc/"
+          href="https://www.portalos.ru/"
           className={`text-xs text-${accentColor}-500 hover:underline`}
         >
           Don’t have a URL or token? Try out our Portal example to see agents in
